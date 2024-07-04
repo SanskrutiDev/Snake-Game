@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b7adad;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+canvas {
+    background-color: #111;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.keyboard {
+    display: flex;
+    gap: 10px;
+}
+
+.key {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.key:active {
+    background-color: #666;
+}
